@@ -17,7 +17,7 @@ if "chat" not in st.session_state:
     st.session_state.chat = model.start_chat(history=[])
 
 st.title("🤖 BookMate - Your AI Assistant")
-st.write("Welcome")
+st.write("  Welcome")
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
